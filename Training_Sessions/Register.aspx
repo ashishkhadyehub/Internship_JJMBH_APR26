@@ -34,7 +34,7 @@
              </asp:DropDownList>
               
           </div>
-         <asp:Button runat="server" ID="btnSumbit" Text="Register" CssClass="btn btn-outline-success" />
+         <asp:Button runat="server" OnClick="btnSumbit_Click" ID="btnSumbit" Text="Register" CssClass="btn btn-outline-success" />
           
          
     
